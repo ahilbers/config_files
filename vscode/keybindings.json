@@ -1,0 +1,21 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+    {
+        "key": "ctrl+x t",
+        "command": "workbench.action.terminal.focus",
+        "when": "!inDebugMode"
+    },
+    {
+        "key": "ctrl+x t",
+        "command": "workbench.panel.repl.view.focus",
+        "when": "inDebugMode"
+    },
+    {
+        "key": "ctrl+x e",
+        "command": "workbench.action.focusActiveEditorGroup"
+    },
+    {
+        "key": "alt+;",
+        "command": "editor.action.commentLine",
+        "when": "editorTextFocus && !editorReadonly"
+    },
