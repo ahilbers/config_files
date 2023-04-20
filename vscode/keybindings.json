@@ -17,5 +17,13 @@
         "key": "alt+;",
         "command": "editor.action.commentLine",
         "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+x right",
+        "command": "workbench.action.nextEditor"
+    },
+    {
+        "key": "ctrl+x left",
+        "command": "workbench.action.previousEditor"
     }
 ]
